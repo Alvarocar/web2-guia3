@@ -1,0 +1,7 @@
+USE web;
+
+CREATE TABLE IF NOT EXISTS person (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    dni int NOT NULL UNIQUE,
+    name VARCHAR(60) NOT NULL
+    ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
