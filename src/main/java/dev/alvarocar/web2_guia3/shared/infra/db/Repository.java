@@ -1,4 +1,4 @@
-package dev.alvarocar.guia3_web.shared.infra;
+package dev.alvarocar.web2_guia3.shared.infra.db;
 
 import java.sql.SQLException;
 import java.util.List;

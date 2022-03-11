@@ -1,4 +1,4 @@
-package dev.alvarocar.guia3_web.person.domain;
+package dev.alvarocar.web2_guia3.person.domain;
 
 public class Person {
   private Integer id;
@@ -12,14 +12,14 @@ public class Person {
   }
 
   public Integer getId() {
-    return id;
+    return this.id;
   }
 
   public Integer getDni() {
-    return dni;
+    return this.dni;
   }
 
   public String getName() {
-    return name;
+    return this.name;
   }
 }
